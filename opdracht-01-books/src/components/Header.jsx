@@ -3,14 +3,9 @@ import './Header.css';
 function Header() {
   return (
     <header className="header">
-      <nav className="navbar">
-        <ul>
-          <li>Home</li>
-          <li>Contact</li>
-          <li>About Us</li>
-        </ul>
-      </nav>
-    </header>
+        <h1>Alle boeken </h1>  
+  
+  </header>
   );
 }
 

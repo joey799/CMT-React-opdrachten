@@ -1,5 +1,5 @@
-.navbar {
-  background-color: #333;
+.header {
+  background-color: #ffffff;
   padding: 1rem;
 }
 
@@ -9,15 +9,16 @@
   gap: 2rem;
   margin: 0;
   padding: 0;
+  justify-content: center;
 }
 
 .navbar li {
   color: white;
+  font-weight: bold;
   cursor: pointer;
+  transition: color 0.3s ease;
 }
 
-.layout-container {
-  width: 80vw;
-  margin: 0 auto;
-  padding: 1rem;
+.navbar li:hover {
+  color: #ffcc00;
 }
